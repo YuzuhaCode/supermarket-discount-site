@@ -1,5 +1,6 @@
 import {Header} from '../components/layout/Header.tsx';
 import { HeroSection } from '../components/home/HeroSection'
+import { HowItWorksSection } from '../components/home/HowItWorksSection'
 
 export function HomePage() {
     return (
@@ -7,6 +8,7 @@ export function HomePage() {
             <Header />
             <main>
                 <HeroSection />
+                <HowItWorksSection />
             </main>
         </>
 
