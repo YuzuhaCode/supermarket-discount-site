@@ -1,9 +1,10 @@
 import { ChevronRight, Search } from 'lucide-react'
+import { SupermarketMapPreview } from './SupermarketMapPreview'
 
 export function HeroSection() {
     return (
         <section className="bg-white">
-            <div className="mx-auto max-w-7xl px-8 py-20">
+            <div className="mx-auto grid max-w-7xl items-center gap-12 px-8 py-20 lg:grid-cols-[0.9fr_1.1fr]">
                 <div className="max-w-xl">
                     <h1 className="text-5xl leading-tight font-extrabold text-emerald-800">
                         近所スーパー
@@ -36,6 +37,8 @@ export function HeroSection() {
                         </a>
                     </div>
                 </div>
+
+                <SupermarketMapPreview />
             </div>
         </section>
     )
